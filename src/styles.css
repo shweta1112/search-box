@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  margin: 5% 28%;
+  background-color: #f8f8f8;
+  border: 1px solid #e4e1e1;
+  width: 18rem;
+}
+
+.input-box {
+  height: 2rem;
+  border: none;
+  background-color: #f8f8f8;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  padding-left: 1rem;
+}
+.input-box:focus {
+  /* box-shadow: 1px 2px 5px 1px #888888; */
+  outline: none;
+}
+.search-result-wrpper {
+  box-shadow: 1px 2px 5px 1px #888888;
+  background-color: #f8f8f8;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.search-result-box:hover {
+  cursor: pointer;
+  background-color: #f5f3b3;
+}
+.search-result-box {
+  border: 1px solid #e4e1e1;
+  padding: 10px;
+  color: rgb(70, 70, 70);
+}
+.search-id {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+.search-name {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+}
+.search-address {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.no-user {
+  margin-top: 3rem;
+}
